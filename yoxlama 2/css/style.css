@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/* onepage start */
+
+#onepage {
+  background-image: url("../img/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexone {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+
+.flexone img {
+  margin-right: 15px;
+  margin-top: 10px;
+  width: 23px;
+  height: 23px;
+}
+
+.flexone h5 {
+  font-size: 32px;
+  letter-spacing: 1px;
+  color: #f4f3ee;
+  font-weight: 300;
+  font-family: "Open Sans";
+}
+
+.flexone i {
+  width: 24px;
+  height: 3px;
+  color: #ffffff;
+}
+
+.onepage-three {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.onepage-two p {
+  font-size: 52px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Open Sans";
+  text-align: center;
+  margin-top: 215px;
+}
+
+.onepage-three input {
+  border: none;
+  outline: none;
+  width: 326px;
+  height: 40px;
+  background-color: #ffffff;
+  padding-left: 15px;
+  color: #8b8b8b;
+  margin-bottom: 230px;
+}
+
+.onepage-three input::placeholder {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.onepage-three button {
+  border: none;
+  outline: none;
+  width: 122px;
+  height: 40px;
+  background-color: #fd4f32;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+/* onepage finish */
+
+/* ... */
+
+/* twopage start */
+
+#twopage {
+  padding-bottom: 127px;
+  background-color: #eeeeee;
+}
+
+#twopage h4 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 600;
+  font-family: "Montserrat";
+  padding-top: 55px;
+}
+
+#twopage p {
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin-top: 10px;
+  margin-bottom: 37px;
+}
+
+.travel img {
+  width: 240px;
+  height: 200px;
+}
+
+.travel h2 {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 550;
+  font-family: "Montserrat";
+  margin-top: 19px;
+}
+
+.travel p {
+  width: 204px;
+  height: 69px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #696969;
+  font-weight: 450;
+  font-family: "Open Sans";
+}
+
+.travell {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background-color: #ffffff;
+  width: 225px;
+  padding-left: 15px;
+}
+
+.travel {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* twopage finish */
+
+/* ... */
+
+/* threepage start*/
+
+.head p {
+  font-size: 42px;
+  letter-spacing: 2px;
+  color: #323232;
+  font-weight: 350;
+  font-family: "Open Sans";
+  padding-top: 80px;
+}
+
+.paragraf h6 {
+  margin-top: 60px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 550;
+  font-family: "Montserrat";
+}
+
+.paragraf p {
+  margin-top: 20px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: #8b8b8b;
+  font-weight: 450;
+  font-family: "Open Sans";
+  width: 283px;
+  height: 82px;
+}
+
+.bighead {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraff p {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 73px;
+  text-transform: uppercase;
+}
+
+.input-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.input-button input {
+  background-color: #eeeeee;
+  border: none;
+  outline: none;
+  padding: 15px 205px 15px 15px;
+}
+
+.input-button input::placeholder {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.input-button button {
+  border: none;
+  outline: none;
+  padding: 15px 40px;
+  background-color: #fd4f32;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+/* threepage finish */
+
+
+/* fourpage start */
+
+.finish-class div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #eeeeee;
+}
+
+footer p {
+  font-size: 14px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+padding-top: 33px;
+padding-bottom: 30px;
+}
+
+.headdiv {
+  font-size: 14px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+padding-top: 33px;
+ padding-right: 10px;
+}
+
+.headdiv h4 {
+  padding-right: 17px;
+}
